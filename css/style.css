@@ -688,7 +688,20 @@ input.button-ghost:hover {
 
 
 
+.port-img {
+	display: block;
+	margin: auto;
+}
+.port-desc {
+	text-align: center;
+	margin: 20% 20% 0 20%;
+}
 
+@media screen and (max-width: 1100px) {
+	.port-desc {
+		margin: 0;
+	}
+}
 
 
 
